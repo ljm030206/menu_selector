@@ -1,0 +1,59 @@
+[
+  {
+    "id": 1,
+    "question": "지금 당신의 기분은 어떤가요?",
+    "options": [
+      { "text": "상쾌하다", "value": "fresh" },
+      { "text": "평범하다", "value": "normal" },
+      { "text": "지쳤다", "value": "tired" }
+    ]
+  },
+  {
+    "id": 2,
+    "question": "누구와 함께 식사하시나요?",
+    "options": [
+      { "text": "혼자", "value": "alone" },
+      { "text": "친구", "value": "friend" },
+      { "text": "연인", "value": "lover" },
+      { "text": "가족", "value": "family" }
+    ]
+  },
+  {
+    "id": 3,
+    "question": "차가운 음식과 따뜻한 음식 중 무엇이 더 끌리나요?",
+    "options": [
+      { "text": "따뜻한 음식", "value": "hot" },
+      { "text": "차가운 음식", "value": "cold" }
+    ]
+  },
+  {
+    "id": 4,
+    "question": "밥/면/빵 중 오늘은 어떤게 좋으세요?",
+    "options": [
+      { "text": "밥", "value": "rice" },
+      { "text": "면", "value": "noodle" },
+      { "text": "빵", "value": "bread" }
+    ]
+  },
+  {
+    "id": 5,
+    "question": "오늘은 가볍게 드시겠어요? 든든하게 드시겠어요?",
+    "options": [
+      { "text": "가볍게", "value": "light" },
+      { "text": "든든하게", "value": "heavy" }
+    ]
+  },
+  {
+    "id": 6,
+    "question": "먹고 싶지 않은 음식 종류가 있다면 골라주세요 (복수 선택 가능)",
+    "multiSelect": true,
+    "options": [
+      { "text": "한식", "value": "korean" },
+      { "text": "중식", "value": "chinese" },
+      { "text": "일식", "value": "japanese" },
+      { "text": "양식", "value": "western" },
+      { "text": "베트남식", "value": "vietnamese" },
+      { "text": "없음", "value": "none" }
+    ]
+  }
+]
