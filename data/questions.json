@@ -45,7 +45,7 @@
   },
   {
     "id": 6,
-    "question": "먹고 싶지 않은 음식 종류가 있다면 골라주세요 (복수 선택 가능)",
+    "question": "먹고 싶지 않은 종류가 있다면 모두 골라주세요",
     "multiSelect": true,
     "options": [
       { "text": "한식", "value": "korean" },

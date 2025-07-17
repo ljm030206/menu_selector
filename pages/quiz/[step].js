@@ -75,16 +75,30 @@ export default function QuizStep() {
     return (
       <div
         style={{
-          minHeight: "100vh",
-          display: "flex",
-          alignItems: "center",
-          justifyContent: "center",
-          background: "#f0f2f5",
-          padding: "5vw 2vw",
-        }}
+        position: "fixed",
+        top: 0,
+        left: 0,
+        width: "100vw",
+        height: "100vh",
+        display: "flex",
+        flexDirection: "column",
+        justifyContent: "center",
+        alignItems: "center",
+        padding: "24px",
+        boxSizing: "border-box",
+        backgroundColor: "#f0f2f5",
+      }}
       >
-        <div style={{ width: "100%", maxWidth: 600, textAlign: "center" }}>
-          <Title level={2} style={{ marginBottom: 32 }}>
+        <div style={{ 
+          width: "100%", 
+          maxWidth: 600, 
+          textAlign: "center",
+          display: "flex",
+          flexDirection: "column",
+          justifyContent: "center",
+          height: "100%"
+        }}>
+          <Title level={2} style={{ marginBottom: 32, margin: "0 0 32px 0" }}>
             {question.question}
           </Title>
           <Space
@@ -130,16 +144,32 @@ export default function QuizStep() {
   return (
     <div
       style={{
-        minHeight: "100vh",
+        position: "fixed",
+        top: 0,
+        left: 0,
+        width: "100vw",
+        height: "100vh",
         display: "flex",
-        alignItems: "center",
+        flexDirection: "column",
         justifyContent: "center",
-        background: "#f0f2f5",
-        padding: "5vw 2vw",
+        alignItems: "center",
+        padding: "24px",
+        boxSizing: "border-box",
+        backgroundColor: "#f0f2f5",
+        padding: "0 20px"
       }}
     >
-      <div style={{ width: "100%", maxWidth: 600, textAlign: "center" }}>
-        <Title level={2} style={{ marginBottom: 32 }}>
+      <div style={{ 
+        width: "100%", 
+        maxWidth: 600, 
+        textAlign: "center",
+        display: "flex",
+        flexDirection: "column",
+        justifyContent: "center",
+        height: "100%",
+        padding: "0 20px"
+      }}>
+        <Title level={2} style={{ marginBottom: 32, margin: "0 0 32px 0" }}>
           {question.question}
         </Title>
         <Space direction="vertical" size="large" style={{ width: "100%" }}>
